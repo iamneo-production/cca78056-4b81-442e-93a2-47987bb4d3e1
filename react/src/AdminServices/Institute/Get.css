@@ -1,0 +1,122 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: auto;
+    background-color: #b7b7b7;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 20px 20px 50px 10px #c9c5c6;
+}
+
+.item-container:hover {
+  box-shadow: 20px 20px 50px 10px #5a464b;
+}
+
+
+
+.child-div {
+  cursor: pointer;
+}
+
+.blog-image {
+  align-self: center;
+  width: 50%;
+
+  height: 50%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.institute-name {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(63, 63, 64);
+}
+
+.img-div {
+  display: flex;
+  height: 125px;
+}
+
+.ins-des {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  color: rgb(63, 63, 64);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.edit-button {
+    height: 35px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(70, 122, 195);
+    color: rgb(222, 234, 222);
+    font-family: Sans-serif;
+}
+
+.delete-button {
+    height: 35px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(220, 27, 27);
+    color: rgb(222, 234, 222);
+    font-family: Sans-serif;
+}
+
+
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 15px;
+  }
+  @media screen and (min-width: 575px) {
+    .blog-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  
+  .blog-info {
+    width: 100%;
+  }
+  @media screen and (min-width: 575px) {
+    .blog-info {
+      width: 660px;
+    }
+  }
+  
+  .blog-details-title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  @media screen and (min-width: 575px) {
+    .blog-details-title {
+      font-size: 28px;
+      text-align: center;
+      font-family: 'Roboto';
+    }
+  }
+  
+  .blog-content {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    line-height: 24px;
+    color: darkslategrey;
+  }
+  

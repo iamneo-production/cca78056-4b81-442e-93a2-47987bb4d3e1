@@ -1,0 +1,330 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-form-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+  .login-website-logo-mobile-image {
+    width: 165px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-website-logo-mobile-image {
+      display: none;
+    }
+  }
+  
+  .login-image {
+    width: 278px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-image {
+      width: 60%;
+      max-width: 524px;
+      flex-shrink: 1;
+      margin-right: 20px;
+    }
+  }
+  
+  .login-website-logo-desktop-image {
+    width: 285px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .login-website-logo-desktop-image {
+      display: none;
+    }
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .form-container {
+      width: 350px;
+      flex-shrink: 0;
+      box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+      padding: 64px 48px 64px 48px;
+    }
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Serif';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #dc7e7e;
+  }
+  
+  .username-input-filed {
+    font-size: 14px;
+    height: 40px;
+    border: 2px solid #d7dfe9;
+    background-color: #e2e8f0;  
+    color: #0f97c9;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+  }
+  
+  .password-input-filed {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+  }
+  
+  .login-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    align-self: start;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-family: 'Roboto';
+    line-height: 16px;
+    color: #ff0b37;
+  }
+  
+  .signupLink{
+   color: #0c89d1c2;
+   font-size: 17px;
+   text-decoration: underline;
+   font-family: serif;
+   font-weight: bold;
+  }
+
+  .signupPara {
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
+
+
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-form-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  .signup-message{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .login-website-logo-mobile-image {
+    width: 165px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-website-logo-mobile-image {
+      display: none;
+    }
+  }
+  
+  .signup-image {
+    width: 278px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .signup-image {
+      width: 60%;
+      max-width: 524px;
+      flex-shrink: 1;
+      margin-right: 20px;
+    }
+  }
+  
+  .login-website-logo-desktop-image {
+    width: 285px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .login-website-logo-desktop-image {
+      display: none;
+    }
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .form-container {
+      width: 350px;
+      flex-shrink: 0;
+      box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+      padding: 64px 48px 64px 48px;
+    }
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Serif';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3d577c;
+  }
+  
+  .username-input-filed {
+    font-size: 14px;
+    height: 40px;
+    border: 2px solid #7288a3;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    
+  }
+
+  .selectUserType{
+    height: 40px;
+    /* width: 256px; */
+    border: 1px solid #7288a3;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 1px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    
+  }
+  
+  .password-input-filed {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+  }
+  
+  .Signup-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    align-self: start;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0b37;
+  }
+  
+  .signuplink{
+    color: #0c89d1c2;
+   font-size: 17px;
+   text-decoration: underline;
+   font-family: serif;
+   font-weight: bold;
+    
+  }
+
+  .loginPara{
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
+  .typeOfUser{
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .border-err{
+    border: 1px red solid;
+  }
+  .error{
+    color: red;
+    margin: unset;
+  }

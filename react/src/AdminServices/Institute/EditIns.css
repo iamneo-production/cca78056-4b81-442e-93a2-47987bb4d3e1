@@ -1,0 +1,53 @@
+.top-container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background: #d5d5d5;
+}
+
+.child-container-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 350px;
+    /* height: 400px; */
+}
+
+.input-container-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.input-label-card {
+    border-style: solid;
+    width: 100%;
+    height: 32px;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 10px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+
+.lable-card {
+    font-family: Roboto;
+    margin-bottom: 5px;
+    color: #2a0303c7;
+    font-size: 18px;
+}
+
+.update-institute-btn {
+    margin-top: 15px;
+    background: #ff3000;
+    color: white;
+    font-weight: bold;
+    border: unset;
+    border-radius: 8px;
+    height: 38px;
+}
+
